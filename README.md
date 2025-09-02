@@ -24,5 +24,5 @@ I would love to connect with you and discuss collaboration opportunities or answ
 ## 🚀 Setup
 **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/jcm-ai/jcm-ai.github.io.git
 ```
