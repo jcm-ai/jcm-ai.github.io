@@ -20,6 +20,7 @@ I would love to connect with you and discuss collaboration opportunities or answ
 ## 📸 Preview
 <img src="assets/images/portfolio-screenshot/home.png" />
 <img src="assets/images/portfolio-screenshot/skill.png">
+<img src="assets/images/portfolio-screenshot/projects.png">
 
 ## 🚀 Setup
 **Clone the repository**
