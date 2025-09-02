@@ -1,73 +1,42 @@
 [
   {
-    "name": "Electon",
-    "desc": "Electone.com, your ultimate e-commerce website for purchasing top-quality electronic gadgets at affordable prices.",
-    "image": "electon-home",
-    "category": "basicweb",
+    "name": "AI-Powered Chest Cancer Detection",
+    "desc": "This project showcases a full-stack AI solution for chest cancer detection using deep learning and MLOps. It integrates MLflow, DVC, CI/CD, and AWS into a scalable pipeline, visualized through a diagnostic X-ray image.",
+    "image": "chest-cancer",
+    "category": "Deep Learning",
     "links": {
-      "view": "https://electon.vercel.app/",
-      "code": "https://github.com/thisiskmv/Electon-clone"
+      "view": "https://github.com/jcm-ai/Production-Ready-Chest-Cancer-Detection-Deep-Learning-Model-MLOps-with-MLflow-DVC-CI-CD-and-AWS",
+      "code": "https://github.com/jcm-ai/Production-Ready-Chest-Cancer-Detection-Deep-Learning-Model-MLOps-with-MLflow-DVC-CI-CD-and-AWS"
     }
   },
   {
-    "name": "Shopclues Clone",
-    "desc": "ShopClues Clone, a meticulously crafted e-commerce platform that brings you the essence of India's leading online shopping website, ShopClues.com.",
-    "image": "shopclues-home",
-    "category": "basicweb",
+    "name": "USA Visa Prediction",
+    "desc": "This project uses machine learning to streamline visa applicant shortlisting, helping U.S. employers manage high volumes of job certification requests efficiently.",
+    "image": "usa-visa",
+    "category": "Machine Learning",
     "links": {
-      "view": "https://shopclues-clone-w5.netlify.app/",
-      "code": "https://github.com/ShubhamRaut187/Shopclues.com-Masai_Unit-5_CW"
+      "view": "https://github.com/jcm-ai/Robust-MLOps-Elevating-Machine-Learning-to-Production-Scale",
+      "code": "https://github.com/jcm-ai/Robust-MLOps-Elevating-Machine-Learning-to-Production-Scale"
     }
   },
   {
-    "name": "Bluefly Clone",
-    "desc": "Bluefly.com website clone is a meticulously crafted online fashion retail platform inspired by the popular original.v",
-    "image": "bluefly-home",
-    "category": "basicweb",
+    "name": "AIDoctor: Medical Care through Gen AI Tech",
+    "desc": "AIDoctor is a cutting-edge platform leveraging generative AI to enhance medical care delivery, providing personalized treatment recommendations and streamlining patient management.",
+    "image": "ai-doc",
+    "category": "Generative AI",
     "links": {
-      "view": "https://bluefly-clone-team5.netlify.app/",
-      "code": "https://github.com/Mzsalmani02/bluefly_clone"
-    }
-  },
-
-  {
-    "name": "Foodrocket",
-    "desc": "It's Responsive Food and Restaurant Website using Bootstrap 5.",
-    "image": "foodrocket-home",
-    "category": "basicweb",
-    "links": {
-      "view": "https://foodrocket-web.netlify.app/",
-      "code": "https://github.com/abhi21121211/FoodRocket"
+      "view": "https://github.com/jcm-ai/AIDoctor-Advancing-Medical-Care-through-Gen-AI-Technology",
+      "code": "https://github.com/jcm-ai/AIDoctor-Advancing-Medical-Care-through-Gen-AI-Technology"
     }
   },
   {
-    "name": "Portfolio 1",
-    "desc": "I proudly present my skills, accomplishments, and creative journey in the field of development.",
-    "image": "portfolio1-home",
-    "category": "basicweb",
+    "name": "Real-time Waste Detection System",
+    "desc": "This project implements a real-time waste detection system using computer vision techniques to identify and classify waste materials.",
+    "image": "waste-detection",
+    "category": "Computer Vision",
     "links": {
-      "view": "https://abhi21121211.github.io/",
-      "code": "https://github.com/abhi21121211/abhi21121211.github.io"
-    }
-  },
-  {
-    "name": "Portfolio 2",
-    "desc": "I proudly present my skills, accomplishments, and creative journey in the field of development.",
-    "image": "portfolio2-home",
-    "category": "basicweb",
-    "links": {
-      "view": "https://abhishek-dukare-portfolio-2.netlify.app/",
-      "code": "https://github.com/abhi21121211/Portfolio-2"
-    }
-  },
-  {
-    "name": "Portfolio 3",
-    "desc": "I proudly present my skills, accomplishments, and creative journey in the field of development.",
-    "image": "portfolio-3-home",
-    "category": "basicweb",
-    "links": {
-      "view": "https://abhishek-dukare-portfolio-3.netlify.app/",
-      "code": "https://github.com/abhi21121211/portfolio-3"
+      "view": "https://github.com/jcm-ai/Real-time-Waste-Detection-System-An-End-to-End-YOLOv5-Solution",
+      "code": "https://github.com/jcm-ai/Real-time-Waste-Detection-System-An-End-to-End-YOLOv5-Solution"
     }
   }
 ]

@@ -6,16 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
-    content="Abhishek Dukare, portfolio, Abhishek, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-  <meta name="description" content="Welcome to Jigar's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    content="Jagadish Mali, portfolio, Jagadish, data science, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+  <meta name="description"
+    content="Welcome to Jagadish's Portfolio. Data Science and ML/AI Enthusiast" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    integrity="sha512-  iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Favicon -->
-  <link id='favicon' rel="shortcut icon" href="./assets/images/boy-developer.jpg" type="image/x-png">
+  <link id='favicon' rel="shortcut icon" href="./assets/images/boy-developer.png" type="image/x-png">
 
 
   <!-- Prepare a container for your calendar. -->
@@ -34,21 +35,41 @@
 
 <!-- navbar starts -->
 <header>
-  
+
   <a href="#" class="logo"><img src="assets/images/logo.png" alt=""> Jagadish</a>
 
   <div id="menu" class="fas fa-bars"></div>
   <nav class="navbar" id="nav-menu">
     <ul>
-      <li><a class="active nav-link" href="#home">Home</a></li>
-      <li class="nav-link " ><a  href="#about">About</a></li>
-      <li class="nav-link "><a   href="#skills">Skills</a></li>
-      <li  ><a href="#education">Education</a></li>
-      <li class="nav-link projects"><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Github</a></li>
-      <li class="nav-link "><a href="#contact">Contact</a></li>
       <li>
-        <a class="nav-link resume" id="resume-link-1" download="">CV / Resume</a>
+        <a class="active nav-link home" href="#home">Home</a>
+      </li>
+      <li class="nav-link about">
+        <a href="#about">About</a>
+      </li>
+      <li class="nav-link skills">
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li class="nav-link projects">
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#experience">Experience</a>
+      </li>
+      <li>
+        <a href="#githubinfo">Github</a>
+      </li>
+      <li class="nav-link contact">
+        <a href="#contact">Contact</a>
+      </li>
+      <li class="nav-link resume">
+        <a id="resume-button-1">CV / Resume</a>
+      </li>
+      <li>
+        <a href="blog/blog.html">Blog</a>
       </li>
     </ul>
   </nav>
@@ -57,56 +78,65 @@
 
 
 <!-- hero section starts -->
-<section class="home" id="home">
+<section class="home-c" id="home">
   <div id="particles-js"></div>
 
   <div class="content">
-    <h2>Hi There,<br /> I'm Jagadish <span>Mali</span></h2>
-    <p>I am into <span class="typing-text"></span></p>
+    <h2>Hi There,<br /> I'm <span>Jagadish</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
     <div class="socials">
       <ul class="social-icons">
-        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jagadish-mali/"
+        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/Jagadish-Mali/"
             target="_blank"><i class="fab fa-linkedin"></i></a></li>
         <li><a class="github" aria-label="GitHub" href="https://github.com/jcm-ai" target="_blank"><i
               class="fab fa-github"></i></a></li>
+      <p style="font-size:1.6em; text-align:center; font-weight:bold; font-family:'Cambria', sans-serif;">
+  Let's keep <span style="color:#0077b6; font-size:1.5em;">Science and Technology</span> in our
+  <span style="color:#ff7f50; font-size:1.5em;">Mind 🧠</span> and
+  <span style="color:#d62828; font-size:1.5em;">God</span> in our
+  <span style="color:#ff1493; font-size:1.5em;">Heart ❤️</span>
+</p>
+
+
 
 
 
       </ul>
     </div>
   </div>
-  
-    <div class="image home-img">
-      <img draggable="false" class="tilt" src="./assets/images/boy-developer.jpg" alt="">
-    
+
+  <div class="image ">
+    <img draggable="false" class="tilt" src="./assets/images/boy-developer.png" alt="">
+
   </div>
-  
+
 </section>
 <!-- hero section ends -->
 
 
 <!-- about section starts -->
-<section class="about section" id="about">
+<section class="about-c about section" id="about">
   <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
   <div class="row">
 
     <div class="image">
-      <img draggable="false" class="tilt" src="./assets/images/photo.png" alt="">
+      <img draggable="false" class="tilt home-img" src="./assets/images/photo.png" alt="">
     </div>
     <div class="content">
       <h3 id="user-detail-name">I'm Jagadish</h3>
-      <span class="tag">Data Science Enthusiast</span>
+      <span class="tag">Data Scientist | ML & AI Enthusiast</span>
 
-      <p id="user-detail-intro">"Hello, I'm Jagadish Mali, a highly motivated full stack developer HTML,CSS,JavaScript. I recently completed
-        my graduation in Computer Applications (BCA) and am currently pursuing a program in full stack development at
-        Masai School. Passionate about software development, I constantly strive to enhance my skills. I have a keen
-        interest in Artificial Intelligence, Machine Learning, and Data Science. Through my portfolio, I aim to showcase
-        my expertise in developing robust web applications using modern frameworks. Join me on this exciting journey of
-        innovation and impactful software development." </p>
+      <p id="user-detail-intro">Hi, I’m Jagadish Mali — a Data Scientist and ML/AI innovator with a passion for turning complex data into intelligent, business‑ready solutions. My journey began with a deep curiosity for Artificial Intelligence, Generative AI, and Machine Learning, and has evolved into a career dedicated to building impactful, future‑focused applications.
+
+I bring a unique blend of technical expertise — from Python, SQL, and advanced analytics to Power BI, Tableau, and CRM workflow design — and business acumen honed through consultative sales and strategic problem‑solving. Whether it’s mining and enriching large datasets, automating workflows, or designing predictive models, I thrive on creating solutions that drive measurable results.
+
+This portfolio is more than a showcase — it’s a reflection of my innovative mindset, data‑driven approach, and commitment to continuous learning. I’m ready to collaborate with forward‑thinking IT, AI, and software companies to build the tools, insights, and experiences that will shape tomorrow.
+
+Let’s connect and make it happen.</p>
 
       <div class="box-container">
 
@@ -116,19 +146,27 @@
         </div>
       </div>
 
-      <div  class="resumebtn">
-        <a id="resume-link-2" href="assets/images/CV.pdf" target="_blank" class="btn" download=""><span>CV / Resume</span>
+      <div class="resumebtn">
+        <!-- <section id="resume" > -->
+        <a href="assets/images/CV.pdf" id="resume-button-2" target="_blank" class="btn"
+          download=""><span> CV / Resume</span>
           <i class="fas fa-chevron-right"></i>
         </a>
+        <!-- </section> -->
+
       </div>
 
     </div>
   </div>
 </section>
 <!-- about section ends -->
+<!-- <section id="resume">
+  <a href="assets/images/Jagadish-Mali-Resume.pdf" id="resume-link-1" class="btn-rounded-white" download="">Download
+    Resume</a>
+</section> -->
 
 <!-- skills section starts -->
-<section class="skills" id="skills">
+<section class="skills-c" id="skills">
 
   <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
@@ -148,30 +186,61 @@
 
   <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-  <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+  <!-- <p class="qoute">"आ नो भद्राः क्रतवो यन्तु विश्वतः" (ā no bhadrāḥ kratavo yantu viśvataḥ) ~ Rigveda 1.89.1</p>
+  <p class="qoute">"Let noble thoughts come to us from all directions".</p> -->
+  <p style="font-family: 'Noto Serif Devanagari', serif; 
+          font-size: 20px; 
+          color: #8B0000; 
+          font-weight: bold; 
+          background-color: #FFF8DC; 
+          padding: 10px; 
+          border-radius: 6px;">
+  "आ नो भद्राः क्रतवो यन्तु विश्वतः" (ā no bhadrāḥ kratavo yantu viśvataḥ) ~ Rigveda 1.89.1
+</p>
+
+<p style="font-family: 'Georgia', serif; 
+          font-size: 18px; 
+          color: #2F4F4F; 
+          font-style: italic; 
+          background-color: #F0F8FF; 
+          padding: 8px; 
+          border-left: 4px solid #8B0000;">
+  "Let noble thoughts come to us from all directions".
+</p>
+
 
   <div class="box-container">
     <div class="box">
       <div class="image">
-        <img draggable="false" src="./assets/images/educat/SEC.jpg" alt="">
+        <img draggable="false" src="./assets/images/educat/SEC.png" alt="">
       </div>
       <div class="content">
-        <h3> Bachelor of Technology in Electronics and Communication Engineering (ECE)</h3>
+        <h3>Bachelor of Technology in Electronics and Communication Engineering (ECE)</h3>
         <p>Sophitorium Engineering College, Bhubaneswar | BPUT University, Odisha</p>
         <h4>2016-2019 | Completed</h4>
       </div>
     </div>
-
     <div class="box">
       <div class="image">
-        <img draggable="false" src="./assets/images/educat/asite.jpg" alt="">
+        <img draggable="false" src="./assets/images/educat/asite.png" alt="">
       </div>
       <div class="content">
-        <h3> Diploma in Engineering, Branch - Electronics and Telecommunication Engineering</h3>
-        <p>Aum Sai Institute of Technical Education, Brahmapur, Odisha | SCTEVT, Odisha, AICTE-India</p>
+        <h3>Diploma in Engineering, Branch - Electronics and Telecommunication Engineering</h3>
+        <p>Aum Sai Institute of Technical Education, Brahmapur, Odisha | SCTE&VT, Odisha | AICTE, New Delhi</p>
         <h4>2012-2015 | Completed</h4>
       </div>
     </div>
+
+    <!-- <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/educat/kjs-img-2.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Bachelor of Computer Application</h3>
+        <p>K.J.S. College Kopargaon | SPPU</p>
+        <h4>2020-2022 | Completed</h4>
+      </div>
+    </div> -->
 
     <!-- <div class="box">
       <div class="image">
@@ -206,17 +275,107 @@
 <!-- work project section ends -->
 
 <!-- experience section starts -->
+
+
+
 <section class="experience" id="experience">
 
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Github </h2>
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
 
   <div class="timeline">
 
     <div class="container right">
       <div class="content">
-        <a href="https://github.com/abhi21121211">
-          <img id="github-streak-stats" title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="abhi21121211's streak"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=abhi21121211&theme=radical&hide_border=true&stroke=0000&background=#122722" />
+        <h1>ASSOCIATE: DATA SCIENTIST, MACHINE LEARNING</h1>
+        <a href="https://www.techdatasolution.co.in/">
+          <h2>Techdata Solutions, Mumbai | CLIENT - TECHFORT Software Services Pvt Ltd</h2>
+        </a>
+        <h3>Full Time</h3>
+        <p>• Design, develop, and deploy machine learning models and algorithms to solve complex business problems</p>
+        <p>• Collect, preprocess, and analyze large datasets to extract meaningful insights.</p>
+        <p>• Implement and optimize machine learning algorithms for scalability and performance.</p>
+        <p>• Evaluate the performance of machine learning models and iterate as needed to improve accuracy and efficiency.</p>
+        <p>• Implement continuous integration and continuous deployment (CI/CD) processes using tools like GitHub Actions to automate model deployment and updates.</p>
+        <p>• Collaborate with cross-functional teams to understand business requirements and identify opportunities for applying machine learning techniques.</p>
+        <p>• Stay up-to-date with the latest developments in machine learning and recommend new tools and techniques to enhance the teams capabilities.</p>
+        <h4>April 2024 - May 2025</h4>
+
+
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <h1>Data Science and Machine Learning Trainee</h1>
+        <a href="https://www.techdatasolution.co.in/">
+          <h2>Techdata Solutions | Mumbai</h2>
+        </a>
+        <h3>Full Time</h3>
+        <p>• Conducted data wrangling, time series analysis, business analysis, and predictive modeling.</p>
+        <p>• Built machine learning models using Python and R for various datasets to provide insights.</p>
+        <p>• Utilized Tableau to create interactive dashboards for data visualization and business intelligence reporting.</p>
+        <p>• Assisted in developing business requirements and translating them into technical solutions.</p>
+        <h4>Feb 2023 - Mar 2024</h4>
+
+
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <h1>Leads Generation | Data Mining | Deep Web Research</h1>
+        <a href="https://www.techdatasolution.co.in/">
+          <h2>SDMA Data Services | Mumbai</h2>
+        </a>
+        <h3>Full Time</h3>
+        <p>• Web/Internet research for contact information and building up and maintenance of The Database (Lead Generation) with skills in Data Imports and Exports</p>
+        <p>• Identify strong potential prospects using the given database and find out new customer using various Internet based pages or application to generate outbound lead opportunities</p>
+        <p>• Maintain well organized, up-to-date and accurate sales information and activity report in CRM Databases</p>
+        <p>• Assess and Analyze a prospect's current process and requirements</p>
+        <p>• Manage, Nurture and Convert inbound/outbound leads into sale opportunities</p>
+        <h4>Aug 2021 - Jan 2023</h4>
+
+
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <h1>Data Entry Expert</h1>
+        <a href="https://www.linkedin.com/in/jagadish-mali/">
+          <h2>Work at Home - Freelance</h2>
+        </a>
+        <h3>Full Time</h3>
+        <p>• Completed database population, data processing, and online/offline data entry tasks.</p>
+        <p>• Sourced leads and built business executive lists using deep web research.</p>
+        <p>• Ensured high accuracy and attention to detail in all data entry assignments.</p>
+        <p>• Managed time effectively to meet project deadlines and deliver quality results.</p>
+        <p>• Conducted accurate and timely data entry for multiple freelance clients.</p>
+        <h4>May 2020 - Mar 2021</h4>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</section>
+<!-- experience section ends -->
+<hr style="border: none; border-top: 15px dotted #FF5722;">
+
+<!-- github section starts -->
+<section class="githubinfo" id="githubinfo">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> GitHub Overview</h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <a href="https://github.com/jcm-ai">
+          <img id="github-streak-stats" title="🔥 Get streak stats for your profile at git.io/streak-stats"
+            alt="jcm-ai's streak"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=jcm-ai&theme=radical&hide_border=true&stroke=0000&background=#122722" />
         </a>
 
       </div>
@@ -224,8 +383,7 @@
 
     <div class="container left">
       <div class="content">
-        <img id="github-top-langs"
-          src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abhi21121211&theme=2077">
+        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jcm-ai">
 
       </div>
     </div>
@@ -233,14 +391,14 @@
     <div class="container right">
       <div class="content">
         <img
-          src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abhi21121211&theme=2077">
+          src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jcm-ai&theme=2077">
 
       </div>
     </div>
 
     <div class="container left">
       <div class="content">
-        <img id="github-stats-card" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abhi21121211&theme=2077">
+        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=jcm-ai">
 
       </div>
     </div>
@@ -248,15 +406,17 @@
     <div class="container right">
       <div class="content">
         <img
-          src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=abhi21121211&theme=2077&utcOffset=8">
+          src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jcm-ai&theme=2077&utcOffset=8">
 
       </div>
     </div>
 
     <div class="container left">
       <div class="content" id="chart">
+        <div class="react-activity-calendar">
+          <img src="https://ghchart.rshah.org/jcm-ai" alt="jcm-ai Github chart" />
+        </div>
 
-        <img class="react-activity-calendar" src="https://ghchart.rshah.org/abhi21121211" alt="abhi21121211 Github chart" />
 
 
 
@@ -269,17 +429,17 @@
   </div>
 
 </section>
-<!-- experience section ends -->
+<!-- github section ends -->
 
 <!-- contact section starts -->
-<section class="contact" id="contact">
+<section class="contact-c" id="contact">
 
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
   <div class="container">
     <div class="content">
       <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="">
+        <img draggable="false" src="./assets/images/contact.png" alt="">
       </div>
 
 
@@ -321,9 +481,9 @@
   <div class="box-container">
 
     <div class="box">
-      <h3>Abhishek's Portfolio</h3>
-      <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
-        🚀. Connect with me over live chat!</p>
+      <h3>Jagadish's Portfolio</h3>
+      <p>Thank you for visiting my portfolio. Let’s turn this introduction into a conversation—connect with me on social media. <br /> <br /> Keep Rising
+        🚀. Let’s take the next step—connect with me on live chat.</p>
     </div>
 
     <div class="box">
@@ -333,29 +493,40 @@
       <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
       <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
       <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
-      <a href="#experience"><i class="fas fa-chevron-circle-right"></i> github</a>
+      <a href="#githubinfo"><i class="fas fa-chevron-circle-right"></i> github</a>
     </div>
 
     <div class="box">
       <h3>contact info</h3>
-      <p> <i id="phone" class="fas fa-phone"></i>+91 7020162627</p>
-      <p> <i class="fas fa-envelope"></i>abhishekdukare689@gmail.com</p>
-      <p> <i class="fas fa-map-marked-alt"></i>Kopargaon, Maharashtra - 423601</p>
+      <p> <i id="phone" class="fas fa-phone"></i>+91-966-868-5656</p>
+      <p> <i class="fas fa-envelope"></i>jagadish@engineer.com</p>
+      <p> <i class="fas fa-map-marked-alt"></i>Mumbai, India</p>
       <div class="share">
 
-        <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek-dukare" class="fab fa-linkedin" aria-label="LinkedIn"
-          target="_blank"></a>
-        <a id="contact-github" href="https://github.com/abhi21121211" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-        <a id="contact-email" href="mailto:abhishekdukare689@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+        <a id="contact-linkedin" href="www.linkedin.com/in/jagadish-mali" class="fab fa-linkedin"
+          aria-label="LinkedIn" target="_blank">
+        </a>
+
+        <a id="contact-github" href="https://github.com/jcm-ai" class="fab fa-github" aria-label="GitHub"
+          target="_blank">
+        </a>
+
+        <!-- <a id="contact-email" href="mailto:jagadishmali567@gmail.com" class="fas fa-envelope" aria-label="Mail"
+          target="_blank">
+        </a> -->
+        <a id="contact-email" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+
         <a id="contact-phone" href="" target="_blank" class="fa-solid fas fa-phone-alt">
-          </a>
+        </a>
 
       </div>
     </div>
   </div>
 
   <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
-      href="https://www.linkedin.com/in/abhishek-dukare"> Abhishek Dukare</a></h1>
+      href="https://github.com/jcm-ai"> Jagadish Mali</a></h1>
 
 </section>
 <!-- footer section ends -->
@@ -400,7 +571,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("c4b-Ixf2WGkDkMfje"); // Initialize Email.js with your API key
+    emailjs.init("1yJfKwRbcfOivHlVP"); // Initialize Email.js with your API key
 
     // Add an event listener to the form submit button
     document.getElementById("submit-button").addEventListener("click", function (event) {
@@ -427,8 +598,8 @@
           message: messageText
         };
 
-        var serviceID = "service_m7fmold"; // Your Email Service ID
-        var templateID = "template_ta4qdi2"; // Your Email Template ID
+        var serviceID = "service_1bkxdch"; // Your Email Service ID
+        var templateID = "template_qpwdcsy"; // Your Email Template ID
 
         // Send the email using Email.js
         emailjs.send(serviceID, templateID, params)
@@ -447,9 +618,85 @@
       }
     });
   });
+
+
+
+
+  var contactEmailIcon = document.getElementById("contact-email");
+  contactEmailIcon.addEventListener("click", function () {
+    // Replace "1234567890" with the desired phone number
+    window.location.href = "mailto:jagadishmali567@gmail.com";
+  });
 </script>
 
+<!-- Custom Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
 
+
+<script>
+  const cursorDot = document.querySelector('.cursor-dot');
+  const cursorOutline = document.querySelector('.cursor-outline');
+
+  let mouseX = 0, mouseY = 0;
+  let outlineX = 0, outlineY = 0;
+
+  document.addEventListener('mousemove', e => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    cursorDot.style.top = mouseY + 'px';
+    cursorDot.style.left = mouseX + 'px';
+  });
+
+  function animateOutline() {
+    outlineX += (mouseX - outlineX) * 0.15;
+    outlineY += (mouseY - outlineY) * 0.15;
+
+    cursorOutline.style.top = outlineY + 'px';
+    cursorOutline.style.left = outlineX + 'px';
+
+    requestAnimationFrame(animateOutline);
+  }
+  animateOutline();
+
+  // Magnetic effect for clickable elements
+  const magneticElements = document.querySelectorAll('a, button, .magnetic');
+
+  magneticElements.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      cursorOutline.classList.add('magnetic-hover');
+    });
+
+    el.addEventListener('mouseleave', () => {
+      cursorOutline.classList.remove('magnetic-hover');
+    });
+
+    el.addEventListener('mousemove', e => {
+      const rect = el.getBoundingClientRect();
+      const relX = e.clientX - rect.left - rect.width / 2;
+      const relY = e.clientY - rect.top - rect.height / 2;
+
+      mouseX = e.clientX - relX * 0.2; // subtle pull
+      mouseY = e.clientY - relY * 0.2;
+    });
+  });
+
+  // Ripple effect on click
+    document.addEventListener('click', e => {
+      const ripple = document.createElement('div');
+      ripple.className = 'ripple';
+      ripple.style.top = e.clientY + 'px';
+      ripple.style.left = e.clientX + 'px';
+      ripple.style.width = '20px';
+      ripple.style.height = '20px';
+      document.body.appendChild(ripple);
+
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
+    });
+</script>
 
 
 

@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   // <!-- emailjs to mail contact form data -->
   document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("c4b-Ixf2WGkDkMfje"); // Initialize Email.js with your API key
+    emailjs.init("1yJfKwRbcfOivHlVP"); // Initialize Email.js with your API key
 
     // Add an event listener to the form submit button
     document
@@ -71,8 +71,8 @@ $(document).ready(function () {
             message: messageText,
           };
 
-          var serviceID = "service_m7fmold"; // Your Email Service ID
-          var templateID = "template_ta4qdi2"; // Your Email Template ID
+          var serviceID = "service_1bkxdch"; // Your Email Service ID
+          var templateID = "template_qpwdcsy"; // Your Email Template ID
 
           // Send the email using Email.js
           emailjs
@@ -97,7 +97,7 @@ $(document).ready(function () {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Jagadish Mali";
-    $("#favicon").attr("href", "assets/images/boy-developer.jpg");
+    $("#favicon").attr("href", "assets/images/boy-developer.png");
   } else {
     document.title = "Come Back To Portfolio";
     $("#favicon").attr("href", "assets/images/namaste.png");
@@ -107,14 +107,16 @@ document.addEventListener("visibilitychange", function () {
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "Data Science",
-    "Machine Learning",
     "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
     "Generative AI",
+    "Computer Vision",
     "Agentic AI",
-    "Data Mining",
-    "Data Analysis",
     "Web Development",
+    "Data Visualization",
+    "Data Mining",
+    "Data Analysis"
   ],
   loop: true,
   typeSpeed: 50,
@@ -129,13 +131,11 @@ async function fetchData(type = "skills") {
     ? (response = await fetch("skills.json"))
     : (response = await fetch("./projects/projects.json"));
   const data = await response.json();
-  console.log(data,"ffffffffffff dat");
   return data;
 }
 
 function showSkills(skills) {
   let skillsContainer = document.getElementById("skillsContainer");
-  console.log(skills);
   let skillHTML = "";
   skills.forEach((skill) => {
     skillHTML += `
@@ -245,28 +245,28 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL HOME */
-srtop.reveal(".home .content h3", { delay: 200 });
-srtop.reveal(".home .content p", { delay: 200 });
-srtop.reveal(".home .content .btn", { delay: 200 });
+srtop.reveal(".home-c .content h3", { delay: 200 });
+srtop.reveal(".home-c .content p", { delay: 200 });
+srtop.reveal(".home-c .content .btn", { delay: 200 });
 
-srtop.reveal(".home .image", { delay: 400 });
-srtop.reveal(".home .linkedin", { interval: 600 });
-srtop.reveal(".home .github", { interval: 800 });
-srtop.reveal(".home .twitter", { interval: 1000 });
-srtop.reveal(".home .telegram", { interval: 600 });
-srtop.reveal(".home .instagram", { interval: 600 });
-srtop.reveal(".home .dev", { interval: 600 });
+srtop.reveal(".home-c .image", { delay: 400 });
+srtop.reveal(".home-c .linkedin", { interval: 600 });
+srtop.reveal(".home-c .github", { interval: 800 });
+srtop.reveal(".home-c .twitter", { interval: 1000 });
+srtop.reveal(".home-c .telegram", { interval: 600 });
+srtop.reveal(".home-c .instagram", { interval: 600 });
+srtop.reveal(".home-c .dev", { interval: 600 });
 
 /* SCROLL ABOUT */
-srtop.reveal(".about .content h3", { delay: 200 });
-srtop.reveal(".about .content .tag", { delay: 200 });
-srtop.reveal(".about .content p", { delay: 200 });
-srtop.reveal(".about .content .box-container", { delay: 200 });
-srtop.reveal(".about .content .resumebtn", { delay: 200 });
+srtop.reveal(".about-c .content h3", { delay: 200 });
+srtop.reveal(".about-c .content .tag", { delay: 200 });
+srtop.reveal(".about-c .content p", { delay: 200 });
+srtop.reveal(".about-c .content .box-container", { delay: 200 });
+srtop.reveal(".about-c .content .resumebtn", { delay: 200 });
 
 /* SCROLL SKILLS */
-srtop.reveal(".skills .container", { interval: 200 });
-srtop.reveal(".skills .container .bar", { delay: 400 });
+srtop.reveal(".skills-c .container", { interval: 200 });
+srtop.reveal(".skills-c .container .bar", { delay: 400 });
 
 /* SCROLL EDUCATION */
 srtop.reveal(".education .box", { interval: 200 });
@@ -278,27 +278,27 @@ srtop.reveal(".work .box", { interval: 200 });
 srtop.reveal(".experience .timeline", { delay: 400 });
 srtop.reveal(".experience .timeline .container", { interval: 400 });
 
+/* SCROLL github */
+srtop.reveal(".githubinfo .timeline", { delay: 400 });
+srtop.reveal(".githubinfo .timeline .container", { interval: 400 });
+
 /* SCROLL CONTACT */
-srtop.reveal(".contact .container", { delay: 400 });
-srtop.reveal(".contact .container .form-group", { delay: 400 });
+srtop.reveal(".contact-c .container", { delay: 400 });
+srtop.reveal(".contact-c .container .form-group", { delay: 400 });
 
 //navbar resume btn
 
-var resume1 = document.getElementById("resume-link-1");
+var resume1 = document.getElementById("resume-button-1");
 resume1.addEventListener("click", function () {
   const previewUrl =
-    "https://drive.google.com/file/d/1bE8PAxOB2F2qmc4L4sMdZz_4KO3yUNJS/view?usp=sharing";
-  const downloadUrl =
-    "https://www.dropbox.com/s/vryemzdjb9vrc81/Abhishek%20Dukare.pdf?dl=1";
+    "https://drive.google.com/file/d/1KZQYWnm94kqupDSGPNhPgh5zCLaajypw/view?usp=sharing";
 
   window.open(previewUrl, "_blank");
-  window.location.href = downloadUrl;
 });
 
-
-// PHone contact
+// Phone contact
 var contactPhoneIcon = document.getElementById("contact-phone");
 contactPhoneIcon.addEventListener("click", function () {
-    // Replace "1234567890" with the desired phone number
-    window.location.href = "tel:7020162627";
-})
+  // Replace "1234567890" with the desired phone number
+  window.location.href = "tel:9668685656";
+});
