@@ -291,7 +291,7 @@ srtop.reveal(".contact-c .container .form-group", { delay: 400 });
 var resume1 = document.getElementById("resume-button-1");
 resume1.addEventListener("click", function () {
   const previewUrl =
-    "https://drive.google.com/file/d/1KZQYWnm94kqupDSGPNhPgh5zCLaajypw/view?usp=sharing";
+    "https://drive.google.com/file/d/105sKOonwqidcx9_niG2GhnJ3k5GepRS_/view?usp=sharing";
 
   window.open(previewUrl, "_blank");
 });
